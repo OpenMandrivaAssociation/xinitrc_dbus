@@ -19,8 +19,8 @@ This script add DBus entry to pcmanfm 0.9.8 and above
 %install
 rm -rf %{buildroot}
 
-mkdir -p ${RPM_BUILD_ROOT}/%{_bindir}
-cp %SOURCE0  ${RPM_BUILD_ROOT}/%{_bindir}/xinitrc_dbus
+mkdir -p %{buildroot}/%{_bindir}
+cp %SOURCE0  %{buildroot}/%{_bindir}/xinitrc_dbus
 
 %clean
 rm -rf %{buildroot}
