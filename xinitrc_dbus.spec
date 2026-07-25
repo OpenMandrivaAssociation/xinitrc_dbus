@@ -1,7 +1,7 @@
 Summary:		Script check DBUS install for pcmanfm 0.9.8 and above
 Name:			xinitrc_dbus
 Version:		0.11.2
-Release:		%mkrel 3
+Release:		4
 License:		GPLv2+
 Group:			System/Base
 Source0:		%{name}.sh
